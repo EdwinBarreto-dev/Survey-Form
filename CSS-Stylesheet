@@ -1,0 +1,81 @@
+
+body{
+  background-color: black
+}
+#title{
+  color: gold;
+  text-align: center;
+  font-size: 80
+}
+#description{
+  color: white;
+  text-align: center;
+  font-size: 30
+}
+#survey-form {
+  background-color: rgba(185, 180, 180, 0.384);
+  margin: 0 auto;
+  height: 1200px;
+  max-width: 745px;
+  text-align: left;
+  font-size: 25;
+  color: rgb(255, 255, 255);
+}
+  #name-label, #email-label,  #number-label{
+
+  }
+  #name, #email, #number{
+    display: block;
+    margin: 15;
+    width: 400;
+    font-size: 15;}
+
+  #dropdown{
+    display: block;
+    width: 200;
+    height: 25;
+    margin: 15;
+  }
+  input[type="radio"]{
+    margin: 15;
+  }
+  .checkbox{
+    width: 30px;
+   height: 18px;
+  }
+  #checkbox-answer{
+    display: block;
+    text-align: left;
+    adding-left: 20px;
+    padding-top: 10px;
+  }
+  #brand-support{
+    display: block;
+    margin: 3;
+  }
+  textarea{
+    display: block;
+    margin: 0;
+    width: 700px;
+    height: 100px;
+  }
+  .fieldset-comments{
+  height: 250;
+  }
+
+#submit{
+width: 250;
+height: 40;
+margin-top: 40;
+margin-left: 230;
+background-color: gold;
+color: black;
+border-color:black;
+font-size: 20 
+}
+#submit:hover{
+  background-color:  rgba(185, 180, 180, 0.384);
+}
+#submit:visited{
+  background-color: blue;
+}
