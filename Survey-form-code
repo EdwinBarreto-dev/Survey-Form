@@ -1,0 +1,61 @@
+<!DOCTYPEhtml>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>New Genesis Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+ <div style="position: relative; width: 100%; height: 0; padding-top: 56.2225%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF5_3ct4Ds&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+ <body>
+    <h1 id="title" >New Genesis Survey Form</h1>
+    <p id="description">This form is to further proggress the clothing brand</p>
+
+<form id="survey-form">
+
+  <fieldset id="personal-info">
+    <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Name" required></label>
+
+    <label id="email-label" for="email">Email<input id="email" type="email" placeholder="Email" required></label>
+
+    <label id="number-label" for="number">Age (optional)<input id="number" type="number" min="12" max="99" placeholder="Age"></label>
+  </fieldset>
+  <fieldset id="questions">
+    <Label id="dropdown-label">Which of these type of clothing you use the most?
+      <select id="dropdown" placeholder="Choose one">
+          <option>Choose one</option>
+          <option>Hoodie</option>
+          <option>T-Shirt</option>
+          <option>Fleece</option>
+          <option>Jacket</option>  
+        </select>
+        <p>Which kind of t-shirt you like the most?</p><input name="t-shirt-weight"  type="radio" value="lightweight"><label >Lightweight</label>
+      <input name="t-shirt-weight" type="radio" value="heavyweight" ><label >Heavyweight</label>
+
+<label id="brand-support">Which clothing brand do you support?</label>
+  <label for="Adidas" id="checkbox-answer"><input class="checkbox" type="checkbox" id="Adidas" value="1">Adidas</label>
+  <label for="Nike" id="checkbox-answer"><input class="checkbox" id="Nike"  type="checkbox" value="2">Nike</label>
+  <label for="Fear of God" id="checkbox-answer"><input class="checkbox" type="checkbox"id="Fear of God" value="3">Fear of God</label>
+  <label for="Supreme" id="checkbox-answer"><input class="checkbox" id="Supreme" type="checkbox" value="4">Supreme</label>
+  <label for="North Face" id="checkbox-answer"><input class="checkbox" id="Noth Face" type="checkbox" value="5">The North Face</label>
+  <label for="New Balance" id="checkbox-answer"><input class="checkbox" value="6" id="New Balance" type="checkbox">New Balance</label>
+  <label for="Primitive" id="checkbox-answer"><input value="7" class="checkbox" type="checkbox" id="Primitive">Primitive</label>
+  <label for="Converse" id="checkbox-answer"><input class="checkbox" id="Converse" type="checkbox" value="8">Converse</label>
+  <label for="Jordan" id="checkbox-answer"><input class="checkbox" id="Jordan" type="checkbox" value="9">Jordan</label>
+  <label for="Vans" id="checkbox-answer"><input class="checkbox" type="checkbox" id="Vans" value="10">Vans</label>
+  
+</fieldset>
+<fieldset class="fieldset-comments">
+  <label id="comments">How can we get better?
+  <textarea placeholder="Enter your comment here..." ></textarea></label>
+  <button type="submit" id="submit">Submit Form</button>
+</fieldset>
+</form>
+  </body>
+</html>
